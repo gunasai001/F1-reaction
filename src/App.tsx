@@ -97,6 +97,7 @@ function App() {
         {jumpStart ? 'JUMP START' : time > 0 ? `Your reaction time: ${time} ms` : '0 ms'}
       </h2>
       <h3>Best time: {bestTime === Infinity ? 'Not set' : `${bestTime} ms`}</h3>
+      <p style={{ position: 'fixed', bottom: '10px', right: '10px', margin: 0 }}>@GunaSai44</p>
     </div>
   );
 }
